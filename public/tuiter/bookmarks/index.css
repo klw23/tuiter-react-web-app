@@ -1,0 +1,163 @@
+.wd-border {
+    border: 1px solid rgb(47,51,54);
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+body {
+    background-color: black;
+}
+
+.wd-left-margin {
+    margin-left: 12px;
+}
+
+.wd-title{
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+
+.wd-handle {
+    font-size: 13px;
+    color: lightgray;
+    margin-top:3px;
+}
+
+.wd-smaller-bottom-margin {
+    margin-bottom: 1px;
+}
+
+
+.wd-bottom-border {
+    margin-top: 12px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+
+.wd-avatar {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 12px;
+    margin-top:12px;
+
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-author {
+    color: white;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+.wd-author-bold {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top:12px;
+}
+
+.wd-handle-2 {
+    color:  lightgray;
+    font-size: 15px;
+    margin-top:12px;
+    margin-left: 4px;
+}
+
+.wd-left-padding {
+    padding-left: 12px;
+}
+
+.wd-float-left-big {
+    float: left;
+    width: 80%;
+}
+
+.wd-max-width {
+    width: 506px;
+    margin-right: 12px;
+}
+
+.wd-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 504px;
+    height: 264px;
+    margin-bottom:0px;
+}
+
+.wd-small-description {
+    font-size: 13px;
+    color: lightgray;
+    margin-top:-8px;
+    margin-bottom:0px;
+}
+
+.wd-e-border {
+    border: 1px solid rgb(47,51,54);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
+    width: 504px;
+}
+.wd-padded-all-sides {
+    padding: 12px;
+}
+.wd-icon-heart {
+    height: 15px;
+    width: 15px;
+}
+
+.wd-icons{
+    height: 15px;
+    width: 15px;
+    color: lightgray;
+}
+
+.wd-float-icons {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-icon-containers {
+    width: 504px;
+    margin-bottom: 10px;
+}
+
+.wd-number {
+    color: white;
+    font-size: 13px;
+    padding-left: 12px;
+    padding-top: 5px;
+
+}
+
+.wd-number-red {
+    color: red;
+    font-size: 13px;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+
+
+.wd-description {
+    margin-bottom: 12px;
+}
+
+.wd-main-content {
+    color: white;
+    font-size: 15px;
+    margin-top: 0px;
+}
