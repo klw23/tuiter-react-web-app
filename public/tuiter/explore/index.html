@@ -2,84 +2,230 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Assignment 3</title>
-    <link href="index.css"
-          rel="stylesheet"/>
+    <title>Assignment 4</title>
+    <link href="../../vendors/fontawesome2/fonts/css/all.css" rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/boot/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
 </head>
 <body>
 
-    <input type="text" class="wd-a-searchbar" placeholder="Search Tuiter"/>
-    <a href="explore-settings.html">
-        <img class ="wd-a-gear" src="images/gear.png"/>
-    </a>
-    <div class="wd-float-done"></div>
-    <br>
+<div class="container mt-2 mb-4">
+    <div class="row">
+        <div class="col-xxl-2 col-xl-3 col-lg-auto col-md-auto col-sm-auto col-auto">
+            <div class="list-group">
+                <i class="fa-brands fa-twitter list-group-item list-group-item-action"></i>
+                <a href="../home.html" class=" blob list-group-item list-group-item-action">
+                    <div class="wd-float-left me-2"><i class="fa-solid fa-house"></i> </div>
+                    <span class="text-break d-none d-xxl-block d-xl-block d-lg-none">Home </span> </a>
+                <a href="#" class="list-group-item list-group-item-action active">
+                    <div class="wd-float-left me-2"> <i class="fa-solid fa-hashtag"></i> </div>
+                    <span class="text-break d-none d-xxl-block d-xl-block d-lg-none"> Explore </span></a>
+                <a href="#" class="list-group-item list-group-item-action text-wrap">
+                    <div class="wd-float-left me-2"> <i class="fa-solid fa-bell"></i> </div>
+                    <span class="text-break d-none d-xxl-block d-xl-block d-lg-none"> Notifications </span></a>
+                <a href="#" class="list-group-item list-group-item-action text-wrap">
+                    <div class="wd-float-left me-2"> <i class="fa-solid fa-envelope"></i> </div>
+                    <span class="text-break d-none d-xxl-block d-xl-block d-lg-none"> Messages </span></a>
+                <a href="../bookmarks/index.html" class="list-group-item list-group-item-action text-wrap">
+                    <div class="wd-float-left me-2"> <i class="fa-solid fa-bookmark"></i> </div>
+                    <span class="text-break d-none d-xxl-block d-xl-block d-lg-none"> Bookmarks </span></a>
+                <a href="#" class="list-group-item list-group-item-action text-wrap">
+                    <div class="wd-float-left me-2"> <i class="fa-solid fa-list"></i> </div>
+                    <span class="text-break d-none d-xxl-block d-xl-block d-lg-none"> Lists </span></a>
+                <a href="../profile.html" class="list-group-item list-group-item-action text-wrap">
+                    <div class="wd-float-left me-2"> <i class="fa-solid fa-user"></i> </div>
+                    <span class="text-break d-none d-xl-block"> Profile </span></a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="wd-float-left me-2">
+              <span class ="fa-stack fa-2xs">
+                  <i class="fa-solid fa-circle fa-stack-2x"></i>
+                  <i class="fa-solid fa-ellipsis fa-stack-1x more"></i>
+              </span> </div>
+                    <span class="text-break d-none d-xxl-block d-xl-block d-lg-none"> More </span></a>
+                <button class="btn btn-primary mt-2"> Tweet </button>
+            </div>
+        </div>
+        <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10">
 
-    <div class="grid-container">
-        <div class="grid-item">
-            <a class = "first-link" href="#"> For you </a>
+            <div class="row">
+                <div class="col-11">
+                    <div class="input-group">
+                        <span class="input-group-text wd-search-icon"><i class="fas fa-search"></i></span>
+                        <input class="form-control wd-search-bar" type="text" placeholder="Search Twitter">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <span class="fa fa-cog fa-2x " style="color: blue"></span>
+                </div>
+            </div>
+
+            <ul class="nav nav-tabs pt-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../for-you.html">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../sports.html">Sports</a>
+                </li>
+                <li class="nav-item d-none d-sm-block">
+                    <a class="nav-link" href="../entertainment.html">Entertainment</a>
+                </li>
+            </ul>
+
+            <div class="card">
+                <div class="card text-white">
+                    <img src="../../images/starship.webp" class="card-img-top">
+                    <div class="card-img-overlay d-flex flex-column">
+                        <div class="mt-auto font-weight-bold "> <h2> SpaceX's Starship </h2></div>
+                    </div>
+                </div>
+                <div class="card-body">
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-10 col-xl-12">
+                                    <p class = "m-0 wd-topics"> Web Development </p>
+                                    <span class = "m-0 wd-users"> ReactJS</span>
+                                    <span class = "wd-topics">- 2h </span>
+                                    <p class = "wd-users mb-1">
+                                 <span class="text-break">  React.js is a component based front end library that makes it very easy to build single page
+                                                        applications or SPAs</span> </p>
+                                </div>
+                                <div class="col-xxl-1 col-xl-2"> <img class="wd-logos mt-2" src="../../images/react.png"> </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-10 col-xl-12">
+                                    <span class = "m-0 wd-users"> JavaScript</span>
+                                    <span class = "wd-topics">- 2h </span>
+                                    <p class = "wd-users mb-1">
+                                    <span class="text-break">  JavaScript is programming language that can run on browsers
+                                                        as well as desktops </span>
+                                    </p>
+                                </div>
+                                <div class="col-xxl-1 col-xl-2"> <img class="wd-logos mt-2" src="../../images/javascript.png"> </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-10 col-xl-12">
+                                    <p class = "m-0 wd-topics"> Web Development </p>
+                                    <span class = "m-0 wd-users"> jQuery</span>
+                                    <p class ="wd-topics"> 123k Tweets</p>
+                                </div>
+                                <div class="col-xxl-1 col-xl-2"> <img class="wd-logos mt-2" src="../../images/jquery.webp"> </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-10 col-xl-12">
+                                    <p class = "m-0 wd-topics"> Web Development </p>
+                                    <span class = "m-0 wd-users"> NodeJS</span>
+                                    <span class = "wd-topics">- 2h </span>
+                                    <p class="wd-topics"> 123K Tweets</p>
+                                </div>
+                                <div class="col-xxl-1 col-xl-2"> <img class="wd-logos mt-2" src="../../images/node.webp"> </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
         </div>
-        <div class="grid-item">
-            <a class = "other-links" href="#"> Trending</a>
-        </div>
-        <div class="grid-item">
-            <a class = "other-links" href="#"> COVID-19</a>
-        </div>
-        <div class="grid-item">
-            <a class = "other-links" href="#"> News</a>
-        </div>
-        <div class="grid-item">
-            <a class = "other-links" href="#"> Entertainment</a>
+
+        <div class="col-xxl-3 col-xl-4 col-lg-5">
+            <ul class="list-group d-none d-xxl-block d-xl-block d-lg-block d-md-none">
+                <li class="list-group-item wd-users"> Who to follow </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-xxl-2">
+                            <img class ="mt-2 wd-avatars" src="../../images/java.png">
+                        </div>
+                        <div class="col-xxl-6">
+                            <p class = "m-0 wd-users"> Java</p>
+                            <p>@Java</p>
+                        </div>
+                        <div class="col-xxl-2">
+                            <button class="mt-2 btn btn-primary">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-xxl-2">
+                            <img class ="mt-2 wd-avatars" src="../../images/space.webp">
+                        </div>
+                        <div class="col-xxl-6">
+                            <p class = "m-0 wd-users"> Relativity Space </p>
+                            <p>@relativityspace</p>
+                        </div>
+                        <div class="col-xxl-2">
+                            <button class="mt-2 btn btn-primary">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-xxl-2">
+                            <img class ="mt-2 wd-avatars" src="../../images/galactic.svg">
+                        </div>
+                        <div class="col-xxl-6">
+                            <p class = "m-0 wd-users"> Virgin Galactic</p>
+                            <p>@virgingalactic</p>
+                        </div>
+                        <div class="col-xxl-2">
+                            <button class="mt-2 btn btn-primary">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-xxl-2">
+                            <img class ="mt-2 wd-avatars" src="../../images/nasa.png">
+                        </div>
+                        <div class="col-xxl-6">
+                            <p class = "m-0 wd-users"> Nasa</p>
+                            <p>@NASA</p>
+                        </div>
+                        <div class="col-xxl-2">
+                            <button class="mt-2 btn btn-primary">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-xxl-2">
+                            <img class ="mt-2 wd-avatars" src="../../images/tesla.png">
+                        </div>
+                        <div class="col-xxl-6">
+                            <p class = "m-0 wd-users"> Tesla</p>
+                            <p>@Tesla</p>
+                        </div>
+                        <div class="col-xxl-2">
+                            <button class="mt-2 btn btn-primary">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
-
-
-    <div class="grid-container2">
-        <div class="grid-row">
-            <span class = "wd-c-topic"> Trending in Science</span>
-            <span class = "wd-c-dots"> •••</span> <br>
-            <span class = "wd-c-title"> Starship</span> <br>
-            <span class = "wd-c-number-tuits"> 55.5K Tweets</span>
-        </div>
-        <div class="grid-row">
-            <span class ="wd-d-author"> The New York Times</span>
-            <span class="wd-c-topic"> • Yesterday</span>
-            <img class="wd-d-image" src = "images\elephant.jpeg">
-            <br>
-            <span class="wd-d-description"> CNN's Cuomo Conundrum: A star anchor with a brother in trouble</span>
-        </div>
-        <div class="grid-row">
-            <span class="wd-c-topic"> COVID-19 • LIVE</span>
-            <img class="wd-d-image" src="images\cartoon.png">
-            <br>
-            <span class="wd-d-description"> COVID-19: News and updates for Massachusetts</span>
-        </div>
-        <div class="grid-row">
-            <span class = "wd-c-topic"> Trending in Science</span>
-            <span class = "wd-c-dots"> •••</span>
-            <br>
-            <span class = "wd-c-title"> Starship</span> <br>
-            <span class = "wd-c-number-tuits"> 55.5K Tweets</span>
-        </div>
-        <div class="grid-row">
-            <span class ="wd-d-author"> Bloomberg Opinion</span>
-            <span class="wd-c-topic"> • Yesterday</span>
-            <img class="wd-d-image" src = "images\strawberry.jpeg">
-            <br>
-            <span class="wd-d-description"> Thinking about getting a booster? Read this first.</span>
-        </div>
-        <div class="grid-row">
-            <span class="wd-c-topic"> WEATHER • LIVE</span>
-            <img class="wd-d-image" src="images\cat.jpeg">
-            <br>
-            <span class="wd-d-description"> Hurricane Kaitlyn is heading towards the coast</span>
-        </div>
-    </div>
-
-
-
-
-
 
 </body>
 </html>

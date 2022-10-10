@@ -1,139 +1,57 @@
-body {
-    /*should be black*/
-    background-color: black;
-    margin-left: 16px;
+.wd-avatars {
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
 }
 
-.wd-a {
-    margin-top: 5px;
+.wd-logos {
+    width: 70px;
+    height: 70px;
 }
 
-.wd-a-searchbar{
+.btn {
     border-radius: 50px;
-    background-color: darkgray;
+}
+
+
+.fa-gear {
+    color: blue;
+    font-size: 25px;
+}
+
+.wd-users {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.wd-topics {
+    color: gray;
+}
+
+.fa-ellipsis {
     color: white;
-    width: 95%;
-    margin-right:5px;
-    border-color: rgb(47,51,54);
+}
+
+.wd-float-left{
     float: left;
-}
-
-.wd-float-done {
-    clear: both;
-}
-
-.wd-a-gear {
-    height:25px;
-    width:25px;
-    margin-right: 0px;
-    float:right;
-    margin-left: 10px;
-    position: fixed;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    margin-left: 16px;
-    margin-right: 16px;
-
-}
-.grid-item {
-    padding: 16px;
-}
-
-.first-link {
-    font-size: 15px;
-    color: rgb(29, 161, 242);
-    text-align: left;
-    text-decoration:none;
-    border-bottom: 3px solid rgb(29, 161, 242);
-    font-family: Arial;
-}
-
-.other-links {
-    font-size: 15px;
-    color: rgb(110,118,125);
-    text-align: left;
-    text-decoration: none;
-    border-bottom: 3px solid rgb(110, 118, 125);
-    font-family: Arial;
 
 }
 
-.grid-container2 {
-    display: grid;
-    grid-template-rows: 100px;
-    border-style: solid;
-    border-color: rgb(47,51,54);
-    border-width: 1px;
-    margin-right: 16px;
+.wd-search-icon {
+    background-color:white;
+    border-radius: 50px;
 
 }
 
-.grid-row {
-    padding: 15px;
-    border-style: solid;
-    border-color: rgb(47,51,54);;
-    border-width: 1px;
-}
-
-.wd-c-topic {
-    font-size: 13px;
-    color: rgb(110,118,125);
-    font-family: Arial;
-
-}
-
-.wd-c-title {
-    font-size: 14px;
-    /*color should be white*/
-    font-weight: bold;
-    color: white;
-    font-family: Arial;
-    margin-top: -8px;
-
-}
-
-.wd-c-number-tuits {
-    font-size:13px;
-    color: rgb(110,118,125);
-    font-family: Arial;
-    margin-top: -8px;
-
-
-}
-
-.wd-d-author {
-    font-size: 13px;
-    /*should be white*/
-    color: white;
-    font-weight: bold;
-    font-family: Arial;
-
-}
-
-.wd-d-description {
-    font-size: 14px;
-    /*should be white*/
-    color: white;
-    margin-top: -3px;
-    font-weight: bold;
-    font-family: Arial;
-
-}
-
-.wd-d-image {
-    border-radius: 25px;
-    width: 100px;
-    height: 100px;
-    margin-right: 16px;
-    float: right;
+.wd-search-bar {
+    border-radius: 50px;
+    border-left: none;
 }
 
 
-.wd-c-dots {
-    color: lightgray;
-    float: right;
-    margin-right: 16px;
+.fa-cog {
+    position: relative;
+    top: 3px;
+    /*vertical-align: center;*/
+    left: -10px;
 }
