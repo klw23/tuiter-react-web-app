@@ -4,6 +4,10 @@
     border-radius: 50%;
 }
 
+.fa-search {
+    color: black;
+}
+
 .wd-logos {
     width: 70px;
     height: 70px;
@@ -15,7 +19,7 @@
 
 
 .fa-gear {
-    color: blue;
+    color: lightblue;
     font-size: 25px;
 }
 
