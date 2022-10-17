@@ -10,7 +10,7 @@ const ExploreComponent = () => {
                     </div>
                 </div>
                 <div class="col-1">
-                    <span class="fa fa-cog fa-2x " style="color: blue"></span>
+                    <span class="fa fa-cog fa-2x"></span>
                 </div>
             </div>
               <ul class="nav nav-tabs pt-2">
