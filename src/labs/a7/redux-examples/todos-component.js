@@ -8,6 +8,7 @@ const Todos = () => {
  const todos = useSelector(state => state.todos);
  const [todo, setTodo] = useState({do: ''});
  const dispatch = useDispatch();
+
 const deleteTodoClickHandler = (index) => {
   dispatch(deleteTodo(index))
  }

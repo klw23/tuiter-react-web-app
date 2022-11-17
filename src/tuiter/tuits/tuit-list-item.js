@@ -3,7 +3,7 @@ import TuitStat from "./tuit-stat";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 
 
@@ -17,7 +17,7 @@ const TuitListItem = (
         "userName": "SpaceX",
         "time": "2h",
         "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
-        "image": "spacex.png",
+        "image": "https://user-images.githubusercontent.com/29754137/202015346-5250b209-57fb-4175-ac1f-a9efb967cd45.png",
         "liked": true,
         "replies": 100,
         "retuits": 200,
@@ -29,14 +29,13 @@ const TuitListItem = (
 }
 ) => {
     const dispatch = useDispatch();
-    const deleteTuitHandler = (id) => {dispatch(deleteTuit(id));}
+    const deleteTuitHandler = (id) => {dispatch(deleteTuitThunk(id));}
  return(
 
   <li className="list-group-item">
    <div className="row">
         <div className="col-2">
-            <img className="rounded-circle"
-             height={35} src={`/images/${tuit.image}`} alt="description"/>
+            <img alt="photo" width ={50} src={`${tuit.image}`}/>
         </div>
         <div className="col-10">
             <div>
