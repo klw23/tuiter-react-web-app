@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faM, faMessage, faRetweet, faThumbsDown } from '@fortawesome/free-solid-svg-icons'
+import {faMessage, faRetweet, faThumbsDown } from '@fortawesome/free-solid-svg-icons'
 import {FaShareAlt } from "react-icons/fa";
 import {updateTuitThunk} from "../../services/tuits-thunks";
 import React from "react";
