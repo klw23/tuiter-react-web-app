@@ -52,7 +52,7 @@ const TuitStat = (
                     ...tuit,
                 dislikes: tuit.dislikes - 1
                 }))}> <FontAwesomeIcon icon={faThumbsDown}/> </i>
-                <span> {tuit.dislikes} </span>
+                <span> {tuit.dislikes || 0} </span>
         </div>
 
         <div className="col-2">

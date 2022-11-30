@@ -35,17 +35,17 @@ const TuitListItem = (
   <li className="list-group-item">
    <div className="row">
         <div className="col-2">
-            <img alt="description" width ={50} src={`${tuit.image}`}/>
+            <img alt="description" width ={50} src= {"https://user-images.githubusercontent.com/29754137/202015346-5250b209-57fb-4175-ac1f-a9efb967cd45.png"}/>
         </div>
         <div className="col-10">
             <div>
-                <span> {tuit.userName} </span> 
+                <span> {tuit.userName || "nasa"} </span> 
                 <span> <FontAwesomeIcon icon={faCheckCircle} color="blue"/> </span>
-                {tuit.handle} ⋅ {tuit.time}
+                {tuit.handle || "@nasa"} ⋅ {tuit.time || "2h"}
                 <i className="bi bi-x-lg float-end" 
                 onClick={() => deleteTuitHandler(tuit._id)}></i>
             </div>
-            <div className="mb-2">{tuit.tuit}</div>
+            <div className="mb-2">{tuit.tuit || "Nasa"}</div>
             <TuitStat key={tuit._id} tuit={tuit}/>
         </div>
    </div>
